@@ -1,0 +1,28 @@
+.contactus-wrapper{
+    width: 100%;
+    min-height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .v-form{
+        width: 60%;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+.contactus-btn{
+    width: 120px;
+    height: 40px;
+    margin: 0px auto 0px auto;
+}

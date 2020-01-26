@@ -1,0 +1,56 @@
+.app-planes-wrapper{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    width: 100%;
+    background-color: #fff;
+}
+.app-planes{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.app-planes-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.app-planes-h{
+    margin: 20px 0px 20px 0px;
+    
+}
+.app-planes-card{
+    border-radius: 10px !important;
+    border: 1px solid #e2e2e2 !important;
+    background-size: 100% 200% !important;
+    background-image: linear-gradient(to bottom, white 50%, #5a64ea 50%) !important;
+    transition: background-position 1s !important;
+    background-color: $primary-color !important;
+    margin-top: 15px;
+    .v-card__text{
+        text-align: center;
+    }
+    .v-card__actions{
+        justify-content: center;
+    }
+}
+.btn-app-planes{
+    transition: 0.8s all ;
+}
+.app-planes-card:hover{
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+    background-position: 0 -100% !important;
+    .btn-app-planes{
+        background-color: white !important;
+        color: $primary-color !important;    }
+    .appplanes-card-percent,
+    .appplanes-card-min,
+    .appplanes-card-name,
+    .appplanes-card-max,
+    .appplanes-card-days,
+    .appplanes-card-desc{
+        color: white;
+    }
+}

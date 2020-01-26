@@ -1,0 +1,106 @@
+.parent-our-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  .scopes-os {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .scope-os {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .data-scope-os {
+    width: 50%;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-scope-os {
+    width: 50%;
+  }
+  .header-os {
+    width: 100%;
+    color: #2d2d2d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-os {
+    width: 100%;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    h1 {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+  }
+  .title-data-scope-os {
+    margin: 0;
+    color: $primary-color;
+    font-size: 27px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .content-data-scope-os {
+    color: rgba(45, 45, 45, 0.8);
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 100px;
+    text-align: left;
+  }
+  .link-data-scope-os {
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 100px;
+  }
+  .align-text{
+   
+  }
+  @media screen and (max-width: 1550px) and (min-width: 1200px) {
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    .scopes-os {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+    .scope-os {
+      flex-wrap: wrap-reverse;
+    }
+    .data-scope-os {
+      width: 100%;
+    }
+    .img-scope-os {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .scope-os {
+      flex-wrap: wrap-reverse;
+    }
+    .data-scope-os {
+      width: 100%;
+    }
+    .img-scope-os {
+      width: 100%;
+    }
+  }

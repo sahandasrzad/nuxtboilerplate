@@ -1,0 +1,31 @@
+.v-app-bar{
+   
+    border-radius: 10px;
+    max-width: 70% ;
+    left: none;
+    margin: 0px auto 0px auto;
+}
+.header{
+    margin-top: 20px !important;
+    
+}
+.v-app-bar--is-scrolled{
+    max-width: 100% !important;
+    margin-top: 0px !important;
+    left: none;
+    margin: 0px auto 0px auto;
+    border-radius: 0px;
+    height: 200px !important;
+    .v-toolbar__content{
+        height: 140px !important;
+    }
+}
+.v-toolbar__content{
+    align-items: center !important;
+}
+.header-link-btn{
+    font-size: 16px !important;
+}
+.header-link-btn:hover{
+    color: $primary-color !important;
+}

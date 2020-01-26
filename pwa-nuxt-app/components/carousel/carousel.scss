@@ -1,0 +1,11 @@
+.Carousel-wraper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 750px;
+    background-color: $primary-color;
+    align-items: center;
+  }
+  .carousel{
+    width: 70%;
+  }
